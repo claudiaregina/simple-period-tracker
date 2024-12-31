@@ -1,10 +1,12 @@
 # Simple period tracker
 
-This is a PWA designed to register and predict menstruation cycles. I made it for myself, so I only added the features I personally needed.
-
 <p align="center">
   <img src="https://i.imgur.com/MovSExc.png" alt="App on a phone" />
 </p>
+
+This is a PWA designed to register and predict menstruation cycles. I made it for myself, so I only added the features I personally needed.
+
+<p align="center"><strong>Try it: <a href="http://cr-spt.netlify.app">cr-spt.netlify.app</a></strong></p>
 
 ## Features
 
