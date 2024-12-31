@@ -1,0 +1,19 @@
+.next-info {
+  max-width: 500px;
+}
+
+.next-info h2 {
+  margin: 0;
+  font-size: 1.1rem;
+  font-weight: normal;
+}
+
+.next-info h2 span {
+  font-weight: bold;
+}
+
+.next-chart-container {
+  max-width: 350px;
+  height: 18rem;
+  margin: 1.5rem 0;
+}

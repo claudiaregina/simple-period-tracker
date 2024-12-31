@@ -1,0 +1,27 @@
+.dashboard {
+  margin-top: 2rem;
+}
+
+.container-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  max-width: 500px;
+}
+
+.add-date-button {
+  background: var(--dark-grey) url("./imgs/calendar-icon.png") center/40% no-repeat;
+  border: 3px dotted var(--dark-grey);
+  border-radius: 50%;
+  cursor: pointer;
+  height: 100px;
+  margin-top: -110px;
+  padding: 1rem;
+  width: 100px;
+  box-shadow: var(--shadow);
+}
+
+.add-date-button:hover {
+  border: 3px dotted var(--almost-bg-grey);
+}

@@ -1,0 +1,27 @@
+.gen-info {
+  width: 95vw;
+  max-width: 500px;
+}
+
+.gen-info-prose p {
+  padding: 2rem;
+  border-radius: 2rem;
+  background-color: #191919;
+  font-family: var(--accent-font);
+  border: 1px dotted var(--dark-grey);
+  font-weight: bold;
+  margin: 0;
+}
+
+.gen-info-prose p strong {
+  background-color: var(--period-red);
+  color: var(--dark-grey);
+  padding: 2px;
+  line-height: 1.9rem;
+  text-align: center;
+}
+
+.gen-info-prose p em {
+  border-bottom: 1px dotted #7a7a7a;
+  font-style: normal;
+}

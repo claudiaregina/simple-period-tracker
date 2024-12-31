@@ -1,0 +1,97 @@
+.all-dates {
+  margin: 2rem auto;
+}
+
+/* table is styled in LatestList.css */
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.pagination button {
+  padding: 0.5rem 1rem;
+  background-color: var(--dark-grey);
+  color: var(--fg-color);
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.pagination button:disabled {
+  opacity: 0.5;
+  cursor: initial;
+}
+
+.pagination span {
+  font-size: 0.8rem;
+  padding-top: 0.5rem;
+}
+
+/* import and export form styling */
+
+#import-export {
+  font-family: var(--accent-font);
+  margin: 4rem 0;
+}
+
+#import-export div {
+  border: 2px dotted var(--dark-grey);
+  padding: 0.5rem 0 2rem 0;
+}
+
+#import-export div:first-child {
+  margin-bottom: 2rem;
+}
+
+#import-export h2 {
+  text-align: left;
+  width: fit-content;
+  margin-left: 1rem;
+  padding: 0 0.5rem;
+  margin-top: -28px;
+  background-color: var(--bg-color);
+  color: var(--fg-color);
+}
+
+#import-export button {
+  padding: 0.5rem 1rem;
+  margin-right: 1rem;
+  background-color: var(--period-red);
+  color: var(--bg-color);
+  font-weight: bold;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#import-export button:hover {
+  background-color: #717171;
+  color: var(--almost-bg-grey);
+}
+
+#import-export input[type="file"] {
+  color: var(--fg-color);
+}
+
+#import-export input[type="file"]::file-selector-button {
+  background-color: var(--almost-bg-grey);
+  color: #717171;
+  border: none;
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+} 
+
+#import-export input[type="file"]::file-selector-button:hover {
+  color: var(--bg-color);
+  background-color: var(--period-red);
+}
+
+.import-csv p {
+  padding-bottom: 1rem;
+}

@@ -1,0 +1,61 @@
+.latest-list {
+  margin: 2rem auto;
+}
+
+.latest-list table, .all-dates table {
+  width: 95vw;
+  max-width: 500px;
+  border-collapse: collapse;
+  margin-bottom: 1rem;
+}
+
+.all-dates table {
+  margin-top: 2rem;
+  border-top: 1px dotted var(--almost-bg-grey);
+}
+
+.latest-list thead th:nth-child(1), .all-dates thead th:nth-child(1) {
+  width: 50%;
+}
+
+.latest-list th, .latest-list td, .all-dates th, .all-dates td {
+  padding: 1rem;
+  text-align: center;
+  border-bottom: 1px dotted var(--dark-grey);
+}
+
+.latest-list th, .all-dates th {
+  font-family: var(--accent-font);
+  font-weight: bold;
+}
+
+.latest-list td, .all-dates td {
+  font-size: 0.9rem;
+}
+
+.latest-list tr:nth-child(even), .all-dates tr:nth-child(even) {
+  background: var(--almost-bg-grey);
+}
+
+.delete-button {
+  background: none;
+  border: none;
+  color: var(--period-red);
+  font-size: 1.2rem;
+  cursor: pointer;
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+}
+
+.delete-button:hover {
+  background: var(--dark-grey);
+}
+
+.page-nav-link {
+  font-family: var(--accent-font);
+  font-weight: bold;
+}
+
+.page-nav-link:visited {
+  color: var(--accent-blue);
+}

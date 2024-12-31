@@ -1,0 +1,13 @@
+.privacy-policy {
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.privacy-policy h1, .privacy-policy h2 {
+  color: #333;
+}
+
+.privacy-policy p, .privacy-policy ul {
+  color: #666;
+}

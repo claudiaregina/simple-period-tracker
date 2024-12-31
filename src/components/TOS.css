@@ -1,0 +1,13 @@
+.tos {
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.tos h1, .tos h2 {
+  color: #333;
+}
+
+.tos p, .tos ul {
+  color: #666;
+}
